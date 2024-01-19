@@ -1,7 +1,7 @@
 global.fetch = require("node-fetch");
 
 const { Readable } = require('stream');
-const tf = require('@tensorflow/tfjs');
+const tf = require('@tensorflow/tfjs-node');
 const PImage = require('pureimage');
 const isImageUrl = require('is-image-url');
 const parseDataUrl = require('parse-data-url');
